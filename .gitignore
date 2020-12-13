@@ -1,8 +1,17 @@
 ##########
+# All
+##########
+# Zed code editor files
+**/.zedstate
+# Visual Studio Code files
+**/.vscode
+
+##########
 # C, C++
 ##########
 # Output binaries
-c/bin/
+**/bin/
 
 # Resource content, including words file
-c/res/
+**/res/
+
