@@ -6,7 +6,7 @@
 #define A (unsigned int)'A';
 
 int main(void) {
-  const char* FILE_PATH = "res/words.txt";
+  const char* FILE_PATH = "../res/words.txt";
  
   // Stores the count for each character in the file.
   unsigned int characterCounts[26] = {0};

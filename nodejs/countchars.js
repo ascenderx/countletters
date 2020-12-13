@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 
-const FILE_PATH = 'res/words.txt';
+const FILE_PATH = '../res/words.txt';
 
 let text;
 try {

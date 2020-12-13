@@ -3,7 +3,7 @@
 import sys
 from typing import Any, Dict, List, Tuple
 
-FILE_PATH = "res/words.txt"
+FILE_PATH = "../res/words.txt"
 
 def key_function(item: Tuple[str, int]) -> int:
     return item[1]
