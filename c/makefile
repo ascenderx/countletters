@@ -10,10 +10,10 @@ WARNS = -Wall -Wextra
 
 all: countchars-c countchars-cc
 
-countchars-c: countchars.c
+countchars-c: src/countchars.c
 	$(CC) -o bin/$@ $< $(WARNS) $(DEBUGFLAGS)
 
-countchars-cc: countchars.cc
+countchars-cc: src/countchars.cc
 	$(CC) -o bin/$@ $< $(WARNS) $(DEBUGFLAGS)
 
 init:
