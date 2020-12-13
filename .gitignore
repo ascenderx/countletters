@@ -1,0 +1,8 @@
+##########
+# C, C++
+##########
+# Output binaries
+c/bin/
+
+# Resource content, including words file
+c/res/
